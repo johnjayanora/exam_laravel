@@ -7,7 +7,11 @@
 
 #setting up the laravel app
 #>composer update
+
 #>php artisan key:generate
+
 #define database connection in the .env file
+
 #>php artisan migrate
+
 #>php artisan db:seed --class=PassersTableSeeder
