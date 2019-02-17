@@ -6,6 +6,7 @@
 #when done setting up the laravel app, please also run 'php artisan db:seed --class=PassersTableSeeder' to import Passers data into the database
 
 #setting up the laravel app
+
 #>composer update
 
 #>php artisan key:generate
