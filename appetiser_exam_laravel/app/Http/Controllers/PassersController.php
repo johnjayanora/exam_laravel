@@ -53,7 +53,7 @@ class PassersController extends Controller
         $validator = Validator::make($inputs, $rules);
 
         if($validator->fails()){
-
+            return back()->withErrors($validator)->withInput();
         }
 
         $data = [
